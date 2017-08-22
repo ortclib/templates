@@ -15,5 +15,7 @@ group("ortc") {
 
     public_deps = [
       "udns",
+      "idnkit",
+      "cryptopp",
     ]
 }
