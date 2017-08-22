@@ -17,5 +17,6 @@ group("ortc") {
       "udns",
       "idnkit",
       "cryptopp",
+      "ortclib",
     ]
 }
