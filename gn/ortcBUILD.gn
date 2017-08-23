@@ -19,5 +19,6 @@ group("ortc") {
       "cryptopp",
       "ortclib",
       "zsLib-eventing:zslib-eventing-tool"
+      "ortclib-services",
     ]
 }
