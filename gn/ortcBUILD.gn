@@ -18,5 +18,6 @@ group("ortc") {
       "idnkit",
       "cryptopp",
       "ortclib",
+      "zsLib-eventing:zslib-eventing-tool"
     ]
 }
