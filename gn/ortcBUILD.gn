@@ -17,10 +17,11 @@ group("ortc") {
       "udns",
       "idnkit",
       "cryptopp",
-      "ortclib",
       "zsLib-eventing:zslib-eventing",
       "zsLib-eventing:zslib-eventing-tool",
       "zsLib-eventing:zslib-eventing-tool-compiler",
+      "zsLib",
+      "ortclib",
       "ortclib-services",
     ]
 }
