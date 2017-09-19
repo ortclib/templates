@@ -19,9 +19,14 @@ group("ortc") {
       "cryptopp",
       "zsLib-eventing:zslib-eventing",
       "zsLib-eventing:zslib-eventing-tool",
-      "zsLib-eventing:zslib-eventing-tool-compiler",
       "zsLib:zslib",
       "ortclib",
       "ortclib-services",
     ]
+
+    if (host_toolchain == current_toolchain) {
+      public_deps += [
+        "zsLib-eventing:zslib-eventing-tool-compiler",
+      ]
+    }
 }
