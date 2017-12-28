@@ -20,7 +20,7 @@ group("ortc") {
       "zsLib-eventing:zslib-eventing",
       "zsLib-eventing:zslib-eventing-tool",
       "zsLib:zslib",
-      "ortclib",
+      "ortclib:libOrtc",
       "ortclib-services",
     ]
 
