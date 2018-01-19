@@ -14,9 +14,6 @@ group("ortc") {
     # Only the root target should depend on this.
 
     public_deps = [
-      "udns",
-      "idnkit",
-      "cryptopp",
       "zsLib-eventing:zslib-eventing",
       "zsLib-eventing:zslib-eventing-tool",
       "zsLib:zslib",
