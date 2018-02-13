@@ -21,9 +21,7 @@ group("ortc") {
       "ortclib-services",
     ]
 
-    if (host_toolchain == current_toolchain) {
-      public_deps += [
-        "zsLib-eventing:zslib-eventing-tool-compiler",
+    public_deps += [
+        "zsLib-eventing:zslib-eventing-tool-compiler($host_toolchain)",
       ]
-    }
 }
