@@ -30,7 +30,7 @@ if (!build_with_chromium) {
     testonly = true
     deps = [
       ":webrtc",
-      "//ortc:ortc",
+      "//third_party/ortc:ortc",
     ]
     if (rtc_build_examples) {
       deps += [ "examples" ]
